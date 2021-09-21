@@ -1,0 +1,37 @@
+.cryptos {
+  display: flex;
+  justify-content: center;
+  /* justify-items: start;  */
+  align-items: center;
+  /* text-align: left; */
+  border-bottom: 1px solid rgb(85, 84, 84);
+  padding: 10px;
+  width: 80vw;
+  /* margin: 0 100px; */
+}
+
+.cryptos_img {
+  display: flex;
+  /* justify-content: flex-start; */
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+}
+
+.price_red {
+  color: red;
+  width: 100px;
+}
+
+.price_green {
+  color: green;
+  width: 100px;
+}
+
+p {
+  width: 150px;
+}
+
+.cryptos_symbol {
+  text-transform: uppercase;
+}
